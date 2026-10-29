@@ -1,0 +1,22 @@
+{
+  "name": "day-flow",
+  "version": "1.2.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "sync": "npm run build && npx cap sync",
+    "android": "npm run sync && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/cli": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/local-notifications": "latest",
+    "@fontsource/vazirmatn": "latest",
+    "@supabase/supabase-js": "^2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "@capacitor/assets": "latest"
+  }
+}

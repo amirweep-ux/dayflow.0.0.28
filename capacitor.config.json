@@ -1,0 +1,11 @@
+{
+  "appId": "app.dayflow.routine",
+  "appName": "Day Flow",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0b0f14"
+  }
+}
